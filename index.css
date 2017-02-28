@@ -1,0 +1,20 @@
+body{
+	background: gray;
+}
+h1{
+	font-size: 50px;
+	color: white;
+}
+.box{
+	width: 100px;
+	height: 100px;
+}
+.red{
+	background: red;
+}
+.blue{
+	background: blue;
+}
+.yellow{
+	background: yellow;
+}

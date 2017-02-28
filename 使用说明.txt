@@ -1,0 +1,23 @@
+依赖nodejs
+npm是nodejs安装包
+1.liveStyle--http://livestyle.io
+nodejs环境下安装http-server插件
+浏览器插件：chrome安装liveStyle插件
+编辑器插件：sublime安装liveStyle插件
+命令行输入npm启动nodejs运用cd进入文件夹 输入http server 启动页面
+针对css修改浏览器编辑器双向
+支持sass less css文件
+ctrl+c停止项目
+
+2.livereload
+livereload  支持样式html js 图片实时修改  livereload.com
+chrome安装LiveReload插件
+安装客户端  nodejs 下 npm install -g livereload 安装livereload插件
+node  npm下进入项目文件 livereload启动
+原理f5刷新
+
+3.browsersync 依赖nodejs插件  手机浏览器PC浏览器多个浏览器同步
+node环境安装http-server下进入项目目录输入browser-sync start --server --files "**" 启动项目
+ctrl+c停止项目
+原理局部刷新
+

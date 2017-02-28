@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>可视化开发</title>
+</head>
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	h1{
+		text-align: center;
+	}
+	p{
+		width: 1000px;
+		font-size: 14px;
+		line-height: 25px;
+		margin: 15px auto;
+	}
+</style>
+<body>
+	<h1>可视化开发</h1>
+	<p>依赖nodejs<br/>
+		npm是nodejs安装包<br/>
+		1.liveStyle--http://livestyle.io<br/>
+		nodejs环境下安装http-server插件<br/>
+		浏览器插件：chrome安装liveStyle插件<br/>
+		编辑器插件：sublime安装liveStyle插件<br/>
+		命令行输入npm启动nodejs运用cd进入文件夹 输入http server 启动页面<br/>
+		针对css修改浏览器编辑器双向<br/>
+		支持sass less css文件<br/>
+		ctrl+c停止项目
+	</p>
+	<p>
+		2.livereload<br/>
+		livereload  支持样式html js 图片实时修改  livereload.com<br/>
+		chrome安装LiveReload插件<br/>
+		安装客户端  nodejs 下 npm install -g livereload 安装livereload插件<br/>
+		node  npm下进入项目文件 livereload启动<br/>
+		原理f5刷新<br/>
+	</p>
+	<p>
+		3.browsersync 依赖nodejs插件  手机浏览器PC浏览器多个浏览器同步</br>
+		node环境安装http-server下进入项目目录输入browser-sync start --server --files "**" 启动项目</br>
+		ctrl+c停止项目</br>
+		原理局部刷新
+	</p>
+</body>
+</html>
